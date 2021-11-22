@@ -1,0 +1,78 @@
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --block-background-color: #3f303a;
+    --buttom-background-color: #f5f4fa;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color)
+}
+
+.logo-link {
+    color: var(--accent-color);
+    font-family: "Releway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-nav {
+    color: var(--black-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+
+.list {
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.nav-list {
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contact-link {
+    color: var(--secondary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.footer-link:hover,
+.footer-link:focus,
+.current {
+  color: var(--accent-color);
+}
+
+
+.button-menu {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--buttom-background-color);
+    color: var(--main-text-color) ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
